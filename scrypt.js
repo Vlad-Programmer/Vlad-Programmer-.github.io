@@ -55,7 +55,7 @@ function proverka() {
             localStorage.setItem('delUzer', 0);
             localStorage.setItem('delTest', 0);
             localStorage.setItem('decoration', 'white');
-            window.location.href = "../reiting/index.html";
+            window.location.href = "reiting/index.html";
         } else {
             let timerZad = setTimeout(function () {
                 if (i == 1) {
@@ -93,7 +93,7 @@ function proverka2() {
             localStorage.setItem('delUzer', 0);
             localStorage.setItem('delTest', 0);
             localStorage.setItem('decoration', 'white');
-            window.location.href = "../proklad/index.html";
+            window.location.href = "proklad/index.html";
         } else {
             let timerZad = setTimeout(function () {
                 if (z == 1) {
