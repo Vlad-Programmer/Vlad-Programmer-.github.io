@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #1e1f2c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menuKoteiner {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: #242736;
+}
+
+.logo {
+    color: white;
+    margin: 70px auto;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.styleText {
+    color: #9d9fa6;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+
+.ikon {
+    display: flex;
+    cursor: pointer;
+}
+
+.ikon img {
+    width: 40px;
+    height: 40px;
+    margin: 7px 3px 7px 10px;
+}
+
+.lin {
+    margin-bottom: 20px;
+}
+
+.viborMenu {
+    background-color: #3b3f4b;
+}
+
+.exit {
+    /* margin-top: 344px; */
+}
+
+.poprav {
+    margin-left: 4px;
+}
+
+.obolochkaLeft {
+    margin-left: 300px;
+}
+
+.pervicnoeSozdanie {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.h4dlySozd {
+    margin-top: 73px;
+    margin-left: 63px;
+    color: white;
+    font-size: 32px;
+}
+
+.razdelitel {
+    position: relative;
+    margin-top: 14px;
+}
+
+.pokaNet {
+    margin-top: 20px;
+    margin-left: 67px;
+    color: white;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.kolonka {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.kolonka {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.glav_zagolovok_gotovo {
+    display: block;
+    color: blue;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.kartochkaGotovo {
+    width: 1100px;
+    height: 273px;
+    padding-top: 18px;
+    margin: 30px auto;
+    background-color: #242736;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+}
+
+.questionNumberGotovo {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.questionGotovo {
+    word-break: break-all;
+    margin: 0 auto;
+    background-color: white;
+    font-weight: bold;
+    width: 850px;
+    height: 63px;
+    text-align: center;
+    font-size: 30px;
+    padding: 19px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText1Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 11px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText2Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 11px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText3Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 7px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText4Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 7px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionTextFlexGotovo {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_answer_flexGotovo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.btn_answerDelitGotovo {
+    margin-left: 0px;
+    color: white;
+    margin-top: -4px;
+    width: 374px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    background-color: #ff1f32;
+    transition: 0.2s linear;
+    cursor: pointer;
+    outline: 0
+}
+
+.btn_answerDelitGotovo:hover {
+    color: black;
+    background: rgb(255, 154, 154);
+    cursor: pointer;
+}
+
+.btnNevid {
+    opacity: 0;
+}
+
+
+.btn_answerRedactGotovo {
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 170px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    color: white;
+    background-color: #008bf7;
+    cursor: pointer;
+    transition: 0.2s linear;
+    outline: 0
+}
+
+.btn_answerRedactGotovo:hover {
+    color: black;
+    background: rgb(146, 172, 255);
+    cursor: pointer;
+}
+
+.viborPolyTrue {
+    background-color: rgb(195, 255, 116);
+}
+
+.redTup {
+    color: red;
+}
+
+.midle {
+    color: saddlebrown;
+}
+
+.um {
+    color: green;
+}
+
+.redTupBtn {
+    background-color: red;
+}
+
+.midleBtn {
+    background-color: saddlebrown;
+}
+
+.umBtn {
+    background-color: green;
+}
+
+
+.skrit {
+    display: none;
+}
+
+.arrow {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    margin: 41px 3px 7px 1450px;
+    cursor: pointer;
+}
+
+.newUzer {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color:red;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: -6px;
+    margin-left: 268px;
+}
+
+.knopDelVse {
+    margin-left: 1031px;
+    padding-top: 3px;
+    color: white;
+    text-align: center;
+    margin-top: 68px;
+    width: 166px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    background-color: #ff1f32;
+    transition: 0.2s linear;
+    cursor: pointer;
+    outline: 0
+}
+.knopDelVse:hover {
+    color: black;
+    background: rgb(255, 154, 154);
+    cursor: pointer;
+}
+
+/* ================================ */
+
+.darkNo {
+    background-color: white;
+}
+
+.darkNoMenu {
+    background-color: #195ba5;
+}
+
+.darkNoText {
+    color: white;
+}
+
+.darkNoZag {
+    color: #1e1f2c;
+}
+
+.viborMenu2 {
+    background-color: white;
+}

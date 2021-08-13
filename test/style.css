@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #242736;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainScreen {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    height: 650px;
+    margin: 50px auto;
+    background-color: #f6faff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+}
+
+.poleProverkiKey {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 186px;
+
+}
+
+.vvediteVah {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 142px;
+}
+
+.vvodZagal {
+    display: flex;
+    flex-direction: column;
+}
+
+.vvodInputTest {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, .1);
+}
+
+.vvodInputKey {
+    margin-top: 25px;
+    width: 400px;
+    height: 40px;
+    font-size: 22px;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, .1);
+    padding: 3px;
+}
+
+.vvodInputTest {
+    width: 400px;
+    height: 40px;
+    font-size: 22px;
+    padding: 3px;
+}
+
+.knopProverkiId {
+    margin-left: 320px;
+    margin-top: 35px;
+    padding-top: 16px;
+    background-color: rgb(12, 245, 12);
+    width: 220px;
+    height: 65px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .3);
+    transition: 0.3s linear;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .3s all;
+    outline: 0
+}
+
+.knopProverkiId:hover {
+    background-color: rgb(89, 236, 97)
+}
+
+.anketa {
+    width: 550px;
+}
+
+.formaAnketa {
+    margin-left: 71px;
+    margin-top: 15px;
+}
+
+.zapolniteVse {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.anketaOtstup {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, .1);
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    font-size: 22px;
+    padding: 3px;
+}
+
+.knopAnketi {
+    margin-left: 167px;
+    margin-top: 35px;
+    padding-top: 16px;
+    background-color: rgb(12, 245, 12);
+    width: 220px;
+    height: 65px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .3);
+    transition: 0.3s linear;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .3s all;
+    outline: 0
+}
+
+.knopAnketi:hover {
+    background-color: rgb(89, 236, 97)
+}
+
+.chekFlex input {
+    margin-top: 7px;
+    width: 20px;
+    height: 20px;
+}
+
+.neVseAnket {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+.neVse {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+.viOchib {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+.zagolKey {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.zagolPoley1 {
+    font-size: 22px;
+    margin-top: 9px;
+}
+
+.zagolPoley2 {
+    font-size: 22px;
+    margin-top: 33px;
+}
+
+.warningScreen {
+    position: absolute;
+    margin-top: 25px;
+    width: 850px;
+    height: 500px;
+}
+
+.warningTitle {
+    color: red;
+    text-align: center;
+    margin: 40px;
+    font-size: 50px;
+}
+
+.warningText {
+    text-align: center;
+    font-size: 20px;
+}
+
+.formConfirmation {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.chekform {
+    font-size: 20px;
+}
+
+.btnReady {
+    margin-top: 25px;
+    width: 220px;
+    height: 65px;
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .3);
+    letter-spacing: 2px;
+    outline: 0
+}
+
+.btnChange {
+    cursor: pointer;
+    transition: 0.2s linear;
+    background-color: rgb(12, 245, 12);
+}
+
+.btnChange:hover {
+    color: black;
+    background: rgb(89, 236, 97);
+    cursor: pointer;
+}
+
+.chekform input {
+    width: 20px;
+    height: 20px;
+}
+
+.questionNumber {
+    color: #242736;
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+.question {
+    margin: 0 auto;
+    background-color: white;
+    font-weight: bold;
+    width: 850px;
+    height: 250px;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border: 0px solid white;
+    border-radius: 10px;
+    word-break: break-all;
+}
+
+.answerOptionText1 {
+    word-break: break-all;
+    width: 400px;
+    height: 80px;
+    margin: 25px 23px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText2 {
+    word-break: break-all;
+    width: 400px;
+    height: 80px;
+    margin: 25px 23px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText3 {
+    word-break: break-all;
+    width: 400px;
+    height: 80px;
+    margin: 10px 23px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText4 {
+    word-break: break-all;
+    width: 400px;
+    height: 80px;
+    margin: 10px 23px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionTextFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_answer {
+    margin-top: 10px;
+    width: 220px;
+    height: 65px;
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .3);
+    transition: 0.3s linear;
+    letter-spacing: 2px;
+    outline: 0
+}
+
+.btn_answer_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.skritie {
+    display: none;
+}
+
+.choice {
+    cursor: pointer;
+    background-color: rgb(12, 245, 12);
+}
+
+.changingCursor {
+    cursor: pointer;
+}
+
+.timer__block {
+    color: green;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.timer__block_1 {
+    color: rgb(177, 174, 2);
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.timer__block_2 {
+    color: red;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}

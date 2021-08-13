@@ -1,0 +1,374 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #1e1f2c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menuKoteiner {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: #242736;
+}
+
+.logo {
+    color: white;
+    margin: 70px auto;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.styleText {
+    color: #9d9fa6;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+
+.ikon {
+    display: flex;
+    cursor: pointer;
+}
+
+.ikon img {
+    width: 40px;
+    height: 40px;
+    margin: 7px 3px 7px 10px;
+}
+
+.lin {
+    margin-bottom: 20px;
+}
+
+.viborMenu {
+    background-color: #3b3f4b;
+}
+
+.exit {
+    /* margin-top: 344px; */
+}
+
+.poprav {
+    margin-left: 4px;
+}
+
+.pervicnoeSozdanie {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.flexSozd {
+    display: flex;
+}
+
+.vvodNovogoTesta {
+    position: relative;
+    width: 440px;
+    height: 40px;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 67px;
+    padding: 2px;
+}
+
+.h2VahiTesti {
+    margin-top: 20px;
+    margin-left: 67px;
+    color: white;
+    font-size: 30px;
+}
+
+.h4dlySozd {
+    margin-top: 67px;
+    margin-left: 67px;
+    color: white;
+    font-size: 23px;
+}
+
+.knopDobavTest {
+    position: fixed;
+    margin-top: 107px;
+    margin-left: 530px;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    background-color: #00ec9c;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.knopDobavTest:hover {
+    background-color: chartreuse;
+}
+
+.gotovSkritie {
+    display: none;
+}
+
+.razdelitel {
+    position: relative;
+    margin-top: 64px;
+}
+
+.pokaNet {
+    margin-top: 20px;
+    margin-left: 270px;
+    color: white;
+    font-size: 24px;
+}
+
+.skrit {
+    display: none;
+}
+
+.obolochkaLeft {
+    margin-left: 300px;
+}
+
+.kolonka {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.glav_zagolovok_gotovo {
+    display: block;
+    color: blue;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.kartochkaGotovo {
+    width: 1100px;
+    height: 570px;
+    margin: 30px auto;
+    background-color: #242736;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+}
+
+.questionNumberGotovo {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.questionGotovo {
+    word-break: break-all;
+    margin: 0 auto;
+    background-color: white;
+    font-weight: bold;
+    width: 835px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .4);
+    border-radius: 10px;
+}
+
+.answerOptionText1Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 11px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText2Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 11px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText3Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 7px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText4Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 7px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionTextFlexGotovo {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_answer_flexGotovo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.btn_answerDelitGotovo {
+    margin: 0 auto;
+    color: white;
+    width: 615px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    background-color: #ff4857;
+    transition: 0.2s linear;
+    cursor: pointer;
+    outline: 0
+}
+
+.btn_answerDelitGotovo:hover {
+    color: black;
+    background: rgb(255, 154, 154);
+    cursor: pointer;
+}
+
+.btn_answerRedactGotovo {
+    margin: 10px auto;
+    width: 615px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    color: white;
+    background-color: #008bf7;
+    cursor: pointer;
+    transition: 0.2s linear;
+    outline: 0
+}
+
+.btn_answerRedactGotovo:hover {
+    color: black;
+    background: rgb(146, 172, 255);
+    cursor: pointer;
+}
+
+.viborPolyTrue {
+    background-color: rgb(195, 255, 116);
+}
+
+.infoOtpravka {
+    word-break: break-all;
+    margin: 0 auto;
+    background-color: white;
+    width: 835px;
+    height: 200px;
+    padding: 8px;
+    font-size: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.infoText {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.razdelit {
+    width: 900px;
+    margin: 15px auto;
+}
+
+.arrow {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    margin: 41px 3px 7px 1450px;
+    cursor: pointer;
+}
+
+.newUzer {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color:red;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: -6px;
+    margin-left: 268px;
+}
+
+/* ==================================== */
+
+.scritie {
+    display: none;
+}
+
+.darkNo {
+    background-color:white;
+}
+.darkNoMenu {
+    background-color: #195ba5;    
+}
+.darkNoText {
+    color: white;
+}
+.darkNoZag {
+    color: #1e1f2c;
+}
+.viborMenu2 {
+    background-color:white;
+}

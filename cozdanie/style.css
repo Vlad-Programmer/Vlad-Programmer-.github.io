@@ -1,0 +1,502 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #1e1f2c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menuKoteiner {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: #242736;
+}
+
+.logo {
+    color: white;
+    margin: 70px auto;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.styleText {
+    color: #9d9fa6;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+
+.ikon {
+    display: flex;
+    cursor: pointer;
+}
+
+.ikon img {
+    width: 40px;
+    height: 40px;
+    margin: 7px 3px 7px 10px;
+}
+
+.lin {
+    margin-bottom: 20px;
+}
+
+.viborMenu {
+    /* background-color: #23788B; */
+    background-color: #3b3f4b;
+}
+
+.exit {
+    /* margin-top: 144px; */
+}
+
+.arrow {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    margin: 41px 3px 7px 1450px;
+    cursor: pointer;
+}
+
+.poprav {
+    margin-left: 4px;
+}
+
+.oboloochka {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.zagl_text {
+    color: aliceblue;
+    text-align: center;
+    margin: 5px 20px 20px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.btnNazad {
+    position: absolute;
+    margin-top: 66px;
+    margin-left: 65px;
+    width: 170px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 30px;
+    background-color: #ff4a5a;
+    color: white;
+    transition: 0.2s linear;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    outline: 0
+}
+
+.btnNazad:hover {
+    background-color: #ff1f32; 
+}
+
+.non {
+    color: black;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.sozdat {
+    margin: 15px auto;
+    width: 350px;
+    height: 100px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    background-color: #00ec9c;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.sozdat:hover {
+    color: black;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+.redakt_vopros {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 650px;
+    margin: 10px auto;
+    background-color: #242736;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .4);
+    border-radius: 10px;
+}
+
+.zagolovok_vopros {
+    color: #e2e4ef;
+    text-align: center;
+    margin: 5px 20px 20px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.h4_napichite_vopros {
+    color: #e2e4ef;
+    text-align: center;
+    margin: 5px 20px 10px 20px;
+    font-size: 19px;
+    line-height: 29px;
+}
+
+.div_inputa_vopros {
+    display: flex;
+    justify-content: center;
+}
+
+#polevvod {
+    width: 550px;
+    height: 80px;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 7px;
+    resize: none;
+}
+
+.input_vvod_variantov {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.style_varianta {
+    margin: 5px auto;
+    padding: 1px;
+    width: 550px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.iput_vibor_pravdi {
+    margin: 0 auto;
+    font-size: 20px;
+    color: #e2e4ef;
+}
+
+.btn_gotov_otmena {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btnReady_sohranit {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 170px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    transition: 0.2s linear;
+    background: rgb(151, 247, 26);
+    color: black;
+    cursor: pointer;
+    transition: 0.2s linear;
+    outline: 0
+}
+
+.btnReady_sohranit:hover {
+    color: black;
+    background-color: rgb(195, 255, 116);
+    cursor: pointer;
+}
+
+.btnReady {
+    margin-top: 10px;
+    width: 170px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 30px;
+    background-color: #ff1f32;
+    color: white;
+    transition: 0.2s linear;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    outline: 0
+}
+
+.btnReady:hover {
+    color: black;
+    background: rgb(255, 154, 154);
+    cursor: pointer;
+}
+
+.raund {
+    width: 17px;
+    height: 17px;
+}
+
+.redborder {
+    border: 3px solid red;
+    outline: none;
+}
+
+.error {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    background-color: white;
+    color: red;
+}
+
+.scritie {
+    display: none;
+}
+
+.pokaz {
+    display: block;
+}
+
+.viborPoly {
+    background-color: rgb(139, 245, 0);
+}
+
+.kolonka {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.glav_zagolovok_gotovo {
+    display: block;
+    color: blue;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.kartochkaGotovo {
+    width: 1100px;
+    height: 395px;
+    margin: 30px auto;
+    background-color: #242736;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+}
+
+.questionNumberGotovo {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.questionGotovo {
+    word-break: break-all;
+    margin: 0 auto;
+    background-color: white;
+    font-weight: bold;
+    width: 850px;
+    height: 125px;
+    text-align: center;
+    font-size: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText1Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 11px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText2Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 11px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText3Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 7px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionText4Gotovo {
+    width: 400px;
+    height: 40px;
+    margin: 7px 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.answerOptionTextFlexGotovo {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_answer_flexGotovo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.btn_answerDelitGotovo {
+    margin-left: 0px;
+    color: white;
+    margin-top: 10px;
+    width: 170px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    background-color: #ff1f32;
+    transition: 0.2s linear;
+    cursor: pointer;
+    outline: 0
+}
+
+.btn_answerDelitGotovo:hover {
+    color: black;
+    background: rgb(255, 154, 154);
+    cursor: pointer;
+}
+
+.btnNevid {
+    opacity: 0;
+}
+
+.btn_answerRedactGotovo {
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 170px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 2px;
+    color: white;
+    background-color: #008bf7;
+    cursor: pointer;
+    transition: 0.2s linear;
+    outline: 0
+}
+
+.btn_answerRedactGotovo:hover {
+    color: black;
+    background: rgb(146, 172, 255);
+    cursor: pointer;
+}
+
+.viborPolyTrue {
+    background-color: rgb(195, 255, 116);
+}
+
+.dark {
+    /* margin-top: 234px; */
+}
+
+.helpDiv {
+    /* margin-top: 219px; */
+}
+
+.newUzer {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color:red;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: -6px;
+    margin-left: 268px;
+}
+
+/* ================================ */
+
+.darkNo {
+    background-color:white;
+}
+.darkNoMenu {
+    background-color: #195ba5;    
+}
+.darkNoText {
+    color: white;
+}
+.darkNoZag {
+    color: #1e1f2c;
+}
+.viborMenu2 {
+    background-color:white;
+}
+.darkOff {
+    /* margin-top: 288px; */
+}

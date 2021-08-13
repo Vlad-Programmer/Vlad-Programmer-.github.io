@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #1e1f2c;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ================= меню ======================== */
+.menuKoteiner {    
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color:#242736;
+}
+.logo {
+    /* display: flex; */
+    color: white;
+    margin: 70px auto;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    
+    /* height: 100%; */
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.styleText {
+    /* text-align: center; */
+    color: #9d9fa6;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+.ikon {
+    display: flex;
+    cursor: pointer;
+    /* margin-left: 5px; */
+    /* margin-bottom: 15px; */
+}
+.ikon img{
+    width: 40px;
+    height: 40px;
+    /* margin: 7px 3px; */
+    margin: 7px 3px 7px 10px ;
+}
+.lin {
+    margin-bottom: 20px;
+}
+
+.viborMenu {
+    background-color: #3b3f4b;
+}
+
+.exit {
+    margin-top: 235px;
+}
+
+.poprav {
+    margin-left: 4px;
+}
+/* ==================================================== */

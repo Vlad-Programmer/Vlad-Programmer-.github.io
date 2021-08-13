@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reiting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="menuKoteiner">
+        <div class="logo">Skills<br><br> Analytics</div>
+        <hr class="lin">
+        <div class="newUzer skrit"></div>
+        <div class="menu">
+            <div class="ikon rezTestDiv viborMenu">
+                <img src="../img/rezult.png" alt="teleg">
+                <div class="rezTest styleText">Результаты кандидатов</div>
+            </div>
+            <div class="ikon sozdTestDiv">
+                <img src="../img/cozd.png" alt="teleg">
+                <div class="sozdTest styleText">Тесты</div>
+            </div>
+            <div class="ikon helpDiv">
+                <img src="../img/help.png" alt="teleg">
+                <div class="styleText help">Помощь</div>
+            </div>            
+            <div class="ikon dark darkSwift">
+                <img src="../img/switchOn.png" alt="teleg">
+                <div class="konstTest styleText">Тёмная тема</div>
+            </div>
+            <div class="ikon darkOff darkSwift2 skrit">
+                <img src="../img/switchOff.png" alt="teleg">
+                <div class="konstTest styleText darkNoText">Тёмная тема</div>
+            </div>
+            <div class="ikon exit">
+                <img src="../img/exit.png" alt="teleg">
+                <div class="konstTest exit2 styleText">Выйти из аккаунта</div>
+            </div>
+        </div>
+    </div>
+
+    <img src="../img/arrow.png" alt="teleg" class="arrow skrit">
+
+    <div class="obolochkaLeft">
+        <div class="pervicnoeSozdanie">
+            <h4 class="h4dlySozd">Список кандидатов, которые уже закончили тестирование:</h4>
+            <div class="knopkiSpiska">
+                <div class="knopDelVse">удалить всё</div>
+            </div>
+            <hr class="razdelitel">
+            <h4 class="pokaNet skrit">Пока в этом списке ни кого нет.<br> Как только, кто ни будь закончит тестирование
+                - его результат, сразу здесь появится.</h4>
+        </div>
+        <div class="obolochkaSpiska">
+            <div class="kolonka"></div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+    <script src="scrypt.js"></script>
+</body>
+
+</html>

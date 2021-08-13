@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pervay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="menuKoteiner">
+        <div class="logo">Candidate<br><br> Analytics</div>
+        <hr class="lin">
+        <div class="newUzer scritie"></div>
+        <div class="menu">
+            <div class="ikon rezTestDiv ">
+                <img src="../img/rezult.png" alt="teleg">
+                <div class="rezTest styleText">Результаты кандидатов</div>
+            </div>
+            <div class="ikon sozdTestDiv viborMenu">
+                <img src="../img/cozd.png" alt="teleg">
+                <div class="sozdTest styleText">Тесты</div>
+            </div>
+            <div class="ikon helpDiv">
+                <img src="../img/help.png" alt="teleg">
+                <div class="styleText help">Помощь</div>
+            </div>            
+            <div class="ikon dark darkSwift">
+                <img src="../img/switchOn.png" alt="teleg">
+                <div class="konstTest styleText">Тёмная тема</div>
+            </div>
+            <div class="ikon darkOff darkSwift2 scritie">
+                <img src="../img/switchOff.png" alt="teleg">
+                <div class="konstTest styleText darkNoText">Тёмная тема</div>
+            </div>
+            <div class="ikon exit">
+                <img src="../img/exit.png" alt="teleg">
+                <div class="konstTest exit2 styleText">Выйти из аккаунта</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="oboloochka">
+        <h2 class="zagl_text">Создание теста: <span></span></h2>
+        <div class="non scritie">
+            Здесь пусто... <br>
+            Вы пока не создали ни одного вопроса. <br>
+            Нажмите на "добавить вопрос".
+        </div>
+        <div class="sozdat scritie">
+            ДОБАВИТЬ <br>
+            ВОПРОС
+        </div>
+        <div class="redakt_vopros">
+            <h3 class="zagolovok_vopros text1">Редактирование вопроса № <span>1</span> </h3>
+            <h4 class="h4_napichite_vopros text2">Напишите ваш вопрос:</h4>
+            <div class="div_inputa_vopros">
+                <textarea name="text" id="polevvod" cols="30" rows="3"
+                    placeholder="напишите ваш вопрос (не более 147 символов)" maxlength="147"></textarea>
+
+            </div>
+            <h4 class="h4_napichite_vopros text3">Напишите четыре варианта ответа на вопрос. <br> Где один из вариантов
+                являются правдивым, а три варианта ложными.</h4>
+            <div class="input_vvod_variantov">
+                <input type="text" placeholder="1) напишите первый вариант (не более 27 символов)"
+                    class="style_varianta pole1" maxlength="27">
+                <input type="text" placeholder="2) напишите второй вариант (не более 27 символов)"
+                    class="style_varianta pole2" maxlength="27">
+                <input type="text" placeholder="3) напишите третий вариант (не более 27 символов)"
+                    class="style_varianta pole3" maxlength="27">
+                <input type="text" placeholder="4) напишите четвёртый вариант (не более 27 символов)"
+                    class="style_varianta pole4" maxlength="27">
+            </div>
+            <h4 class="h4_napichite_vopros text4">Укажите какой номер ответа является правдой:</h4>
+            <div class="iput_vibor_pravdi">
+                <input type="radio" name="vibor" value="1" class="raund"> правда <b>первый</b> вариант ответа<br>
+                <input type="radio" name="vibor" value="2" class="raund"> правда <b>второй</b> вариант ответа<br>
+                <input type="radio" name="vibor" value="3" class="raund"> правда <b>третий</b> вариант ответа<br>
+                <input type="radio" name="vibor" value="4" class="raund"> правда <b>четвёртый</b> вариант ответа
+            </div>
+            <div class="btn_gotov_otmena">
+                <button class="btnReady">ОТМЕНА</button>
+                <button class="btnReady_sohranit">СОХРАНИТЬ</button>
+            </div>
+            <h4 class="error scritie">Не все значения введены!</h4>
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+        <script src="scrypt.js"></script>
+</body>
+
+</html>

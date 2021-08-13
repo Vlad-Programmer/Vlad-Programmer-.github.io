@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #242736;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainScreen {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    height: 650px;
+    margin: 50px auto;
+    background-color: #f6faff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+}
+
+.zagol {
+    text-align: center;
+    margin-top: 100px;
+    color: #242736;
+    font-size: 32px;
+    line-height: 36px;
+}

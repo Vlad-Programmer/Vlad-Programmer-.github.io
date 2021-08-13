@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сandidate analytics test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainScreen">
+        <div class="vhodTest">
+            <h3 class="vvediteVah">Введите ваш ключ и название теста.<br>Если вы их не знаете - уточните эту информацию
+                у того, кто дал вам этот тест.</h3>
+            <div class="poleProverkiKey">
+                <div class="vvodZagal flexVvod">
+                    <h3 class="zagolPoley1">Тест: </h3>
+                    <h3 class="zagolPoley2 zagolKey">Ключ: </h3>
+                </div>
+                <div class="flexVvod">
+                    <input type="text" class="vvodInputTest" placeholder="тест">
+                    <input type="text" class="vvodInputKey" placeholder="ключ">
+                </div>
+            </div>
+            <div class="knopProverkiId ">вход</div>
+            <div class="neVse skritie">не все поля заполнены!</div>
+            <div class="viOchib skritie">вы ошиблись при заполнении полей - перепроверьте внимательнее!</div>
+        </div>
+
+        <div class="anketa skritie">
+            <h3 class="zapolniteVse">Поздравляем, вы ответили на все вопросы!<br>Остался последний шаг!<br>Заполните все
+                поля анкеты и поставьте галочку в квадрат, для согласия на обработку персональных данных</h3>
+            <div class="formaAnketa">
+                <h3>Имя:</h3>
+                <input type="text" class="nameAnketa anketaOtstup" placeholder="имя">
+                <h3>Фамилия:</h3>
+                <input type="text" class="familAnketa anketaOtstup" placeholder="фамилия">
+                <h3>Телефон:</h3>
+                <input type="text" class="telAnketa anketaOtstup" placeholder="телефон для связи с вами">
+                <h3>Почта:</h3>
+                <input type="text" class="pochtaAnketa anketaOtstup" placeholder="почта для связи с вами">
+                <div class="chekFlex">
+                    <input type="checkbox"">
+                <span class=" yesDannie">согласие на обработку <a href="">персональных данных</a> </span>
+                </div>
+            </div>
+            <div class="knopAnketi">отправить</div>
+            <div class="neVseAnket skritie">не все поля заполнены!</div>
+        </div>
+
+        <div class="warningScreen skritie">
+            <h3 class="warningTitle">
+                ВНИМАНИЕ!
+            </h3>
+            <div class="warningText">
+                Всего вопросов в тесте: <b><span class="vsegoVop"></span></b> <br>
+                Минут на выполнения теста приблизительно: <b><span class="vremyaVop"></span></b> <br>
+                Время ответа на каждый вопрос <b>20 секунд</b>. <br>
+                Если вы не успеваете ответить на вопрос - вы <b>автоматически</b> переходите к следующему. <br>
+                Пожалуйста, <b>убедитесь</b> что вас ничего не будет отвлекать от ответов на вопросы. <br>
+                У вас будет только <b>одна попытка</b> пройти этот тест. <br>
+                <b>Как только будете готовы</b> к ответам на вопросы: <br>
+                - поставьте галочку в "прочитал предупреждение и принимаю правила" <br>
+                - затем нажмите кнопку "ГОТОВ"
+            </div>
+            <form class="formConfirmation">
+                <div class="chekform">
+                    <input type="checkbox"">
+                    <span class=" yes">прочитал предупреждение и принимаю правила</span>
+                </div>
+                <button class="btnReady">ГОТОВ</button>
+            </form>
+        </div>
+        <div class="questionScreen"></div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script src="scrypt.js"></script>
+</body>
+
+</html>

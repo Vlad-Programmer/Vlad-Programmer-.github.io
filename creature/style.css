@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.redakt_vopros {
+    position: relative;
+    /* display: flex; */
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 650px;
+    margin: 50px auto;
+    background-color: #f6faff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .4);
+    border-radius: 10px;
+}
+
+.zagolovok_vopros {
+    color: blue;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.h4_napichite_vopros {
+    color: black;
+    text-align: center;
+    margin: 5px 20px 10px 20px;
+    font-size: 20px;
+}
+
+.div_inputa_vopros {
+    display: flex;
+    justify-content: center;
+}
+
+#polevvod {
+    /* display: block; */
+
+    /* text-align: center; */
+    width: 550px;
+    height: 80px;
+    font-size: 20px;
+}
+
+.input_vvod_variantov {
+    display: flex;
+    justify-content: center;
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.style_varianta {
+    margin: 5px auto;
+    width: 550px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.iput_vibor_pravdi {
+    
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.btn_gotov_otmena {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.btnReady_sohranit {
+
+    margin-left: 50px;
+
+    margin-top: 10px;
+    width: 170px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .3);
+    letter-spacing: 2px;
+    background-color: rgb(195, 255, 116);
+    cursor: pointer;
+    transition: 0.2s linear;
+
+    /* transition: .3s all; */
+    outline: 0
+}
+.btnReady_sohranit:hover {
+    color: black;
+    background: rgb(151, 247, 26);
+    cursor: pointer;
+    
+}
+
+.btnReady {
+    margin-top: 10px;
+    width: 170px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 30px;
+    background-color: rgb(255, 154, 154, .5);
+    transition: 0.2s linear;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    letter-spacing: 2px;
+
+    /* transition: .3s all; */
+    outline: 0
+}
+.btnReady:hover {
+    color: black;
+    background: rgb(255, 154, 154);
+    cursor: pointer;
+    
+}
+
+.raund {
+    width: 17px;
+    height: 17px;
+
+}
+
+.redborder {
+    /* box-shadow: 3px 3px 3px 0 red;
+     */
+    border: 3px solid red;
+    outline: none;
+}
+
+.error {
+    text-align: center;
+    color: red;
+}
+
+.scritie {
+    display: none;
+}
+
+.pokaz {
+    display: block;
+}
+
+.viborPoly {
+    background-color: rgb(195, 255, 116);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="vvedite">Введите вашу почту и пароль:</h2>
+        <input type="email" class="txtEmail" placeholder="почта">
+        <input type="password" class="txtPassword" placeholder="пароль">
+        <button class="btnLogin">Войти</button>
+        <div class="eror scritie">неверный пароль или почта</div>
+        <h5 class="registZag1">если вы ещё не регистрировались:</h5>
+        <h5 class="registZag2">введите вашу почту и придумайте пароль</h5>
+        <h5 class="registZag2">далее нажмите "регистрация"</h5>
+        <button class="btnSingUp">Регистрация</button>
+        <button class="btnLogOut hide">Log out Выйти</button>
+        <div class="error2 scritie">вы ввели некоректные данные</div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+    <script src="scrypt.js"></script>
+</body>
+
+</html>
